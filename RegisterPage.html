@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=600">
+        <link rel="stylesheet" href="styleRegister.css"></link>
+        <title>Register</title>
+        <script src = "RegisterPage.js"></script>
+    </head>
+
+    <body>
+        <div class="header">
+            <a href ="HomePage.html"><img src="Assets/Logo.png" id="logo" width="290" height="50"></a>
+
+            <div class="dropdown">
+                <button class="mainmenubtn"> Home</button>
+                <div class="dropdown-child">
+                  <a href="HomePage.html">Home</a>
+                  <a href="RegisterPage.html">Register</a>
+                  <a href="AlbumsPage.html">Albums</a>
+                  <a href="MerchandisePage.html">Merchandise</a>
+                  <a href="TestimonialPage.html">Testimonial</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="content">
+            <h1>Register Page</h1>
+            <form action="">
+                <div class = "form-content">
+                    <label for="fullnametf">Full Name</label>
+                    <input type="text" name="fullname" id="fullnametf">
+                </div>
+
+
+                <div class = "form-content">
+                    <label for="nametf">Username</label>
+                    <input type="text" name="name" id="nametf">
+                </div>
+
+                <div class = "form-content">
+                    <label for="emaildf">Email</label>
+                    <input type="email" name="email" id="emaildf">
+                </div>
+
+                <div class = "form-content">
+                    <label for="passwordf">Password</label>
+                    <input type="password" name="password" id="passwordf">
+                </div>
+
+                <div class = "form-content">
+                    <label for="confirmf">Confirm Password</label>
+                    <input type="password" name="confirmpass" id="confirmpassf">
+                </div>
+
+                <div class="form-content">
+                    <label for="gender">Choose Gender</label>
+                    <input type="radio"name="gender"value="pria" id ="gendermale">Pria
+                    <input type="radio"name="gender"value="wanita" id = "genderfemale">Wanita
+                </div>
+                
+                <div id = "error"></div>
+                
+                <button on onclick="formsubmit(event)">
+                    <input type="submit" value="Register" class="submitBtn">
+                </button>
+            </form>
+        </div>
+
+        <footer>
+            <div class = "footer-content">
+                <div class="socials">
+                    <a href=""><img src="Assets/Facebook.png" alt=""></a>
+                    <a href=""><img src="Assets/Twitter.png" alt=""></a>
+                    <a href=""><img src="Assets/Youtube.png" alt=""></a>
+                    <a href=""><img src="Assets/Twitter.png" alt=""></a>
+                </div>
+            </div>
+ 
+            <div class="footer-bottom">
+                <p>Copyright &copy;2021</p>
+            </div>
+        </footer>
+
+        
+    </body>
+</html>

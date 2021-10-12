@@ -1,0 +1,138 @@
+*{
+    margin  : 0;
+    padding : 0;
+    font-family: Comic Sans MS;
+}
+
+/*Header*/
+
+.header{
+    width: 100%;
+    height : 100px;
+    background-color: black;
+    padding : 0px 50px; 
+    display: flex;
+}
+
+#logo{
+    padding-top: 25px;
+}
+
+.mainmenubtn {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 18px;
+    margin : 20px;
+    font-size: 16px;
+    font-weight: bold;
+ }
+ 
+ .mainmenubtn:hover {
+    background-color:#6b9e65;
+}
+ 
+ .dropdown {
+    position: relative;
+    display: inline-block;
+ }
+
+ .dropdown-child {
+    display: none;
+    background-color: black;
+    min-width: 100px;
+ }
+
+ .dropdown-child a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+ }
+
+ .dropdown-child a:hover{
+    background-color:#6b9e65;
+ }
+
+ .dropdown:hover .dropdown-child {
+    display: block;
+ }
+
+/*Footer*/
+
+ footer{
+     background: black;
+     height: auto;
+     width : 100%;
+     padding-top: 10px;
+     color: white;
+     bottom: 0px;
+ }
+
+ footer-content{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     text-align: center;
+ }
+
+ .socials{
+     list-style: none;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ .socials img{
+     height: 40px;
+     width: 40px;
+     padding: 5px;
+ }
+
+ .footer-bottom{
+     background : #6b9e65;
+     width : 100%;
+     padding : 8px 0;
+     text-align: center;
+ }
+
+ .footer-bottom p{
+     font-size: 14px;
+     font-weight: bold;
+     word-spacing: 2px;
+     text-transform: capitalize;
+ }
+
+ /* ------------------------------------------ */
+
+ /* Testimonial CSS */
+
+.content-text{
+    width : 760px;
+    height: 150px;
+    margin: 10px;
+}
+
+
+
+.content-testimonial{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.content-img{
+    overflow: hidden;
+    width: 500px;
+    height: 300px;
+
+}
+
+ p{
+    display: flex;
+    justify-content: left;
+}
+
+
